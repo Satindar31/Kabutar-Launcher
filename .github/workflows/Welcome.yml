@@ -1,5 +1,4 @@
 name: Welcome
-
 on:
   issues:
     types: [opened]
@@ -8,8 +7,8 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     steps:
-      - name: Rick Roll
+      - name: a_normal_comment
         uses: TejasvOnly/random-rickroll@v1.0
         with:
           percentage: 100
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
