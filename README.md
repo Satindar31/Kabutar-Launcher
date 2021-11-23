@@ -8,3 +8,12 @@
 - Edit code as you wish
 - Run it
 - See your changes
+
+## Issues
+ - [x] Not Launching
+ - [ ] No Sound
+ - [ ] Bugs
+
+
+Screen Shots:
+![1](ScreenShots/1.png)
